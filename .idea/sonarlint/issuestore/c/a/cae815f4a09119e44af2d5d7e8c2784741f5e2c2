@@ -1,0 +1,4 @@
+
+ysquid:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(Å©÷‡þÿÿÿÿ8›±²Ôì-
+wsquid:S1450"YRemove the "callcycler" field and declare it as a local variable in the relevant methods.(¿ŠÀú8ë“²Ôì-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÀ¾ßüÿÿÿÿ

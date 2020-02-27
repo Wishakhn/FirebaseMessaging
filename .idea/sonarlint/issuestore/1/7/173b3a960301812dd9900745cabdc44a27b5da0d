@@ -1,0 +1,8 @@
+
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.( …œøÿÿÿÿ8˜ã¢í-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(šßÓûÿÿÿÿ8¸Ïì¢í-
+¥squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğ÷‘Şÿÿÿÿÿ8ğ¹²†í-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÁÔúÕ8¢Ôøûì-
+fsquid:S11923"HDefine a constant instead of duplicating this literal "default" 3 times.(˜İ¦²8àñ“†í-

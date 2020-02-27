@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E9E8"
+    tools:context=".SplashScreen">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Messaging App"
+        android:textSize="30sp"
+        android:visibility="visible"
+        android:textStyle="bold"
+        android:textColor="@color/maincolor"/>
+    <Button
+        android:id="@+id/loginuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_marginHorizontal="10dp"
+        android:background="#45E78F"
+        android:padding="10dp"
+        android:text="Log in"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/reguser"
+        android:visibility="gone"
+        android:layout_below="@+id/loginuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#F7E75D"
+        android:padding="10dp"
+        android:text="Register"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+</FrameLayout>

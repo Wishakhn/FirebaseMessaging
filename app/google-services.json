@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413329447746",
+    "firebase_url": "https://testmessagingapp-a78f2.firebaseio.com",
+    "project_id": "testmessagingapp-a78f2",
+    "storage_bucket": "testmessagingapp-a78f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413329447746:android:5c0f037d2428f107f886db",
+        "android_client_info": {
+          "package_name": "com.example.firebasemessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413329447746-nbt22c1qf3ne8cootg61i8lt4p8irq8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasemessaging",
+            "certificate_hash": "632dfeab8bc4b5147068207ba73a3d6a55a6c970"
+          }
+        },
+        {
+          "client_id": "413329447746-nadqc9t8i4pt9oqbp8n0ue5t8ev01k8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdf_X7V4HUt2xygpCSxOkXqJVUBFtzHgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413329447746-nadqc9t8i4pt9oqbp8n0ue5t8ev01k8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

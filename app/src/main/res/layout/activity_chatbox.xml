@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Activities.ChatboxActivity">
+    <include layout="@layout/layout_toolbar_inbox"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msgCycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editconatiner"
+        android:layout_below="@+id/toolbaridbox"
+        />
+    <RelativeLayout
+        android:id="@+id/editconatiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/sendmsgEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/sendbtn"
+            android:background="@null"
+            android:hint="Type a message..."
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/maincolor"
+            android:textColorHint="@color/grey" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/sendmsgEdit"/>
+        <ImageButton
+            android:id="@+id/sendbtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_send_grey"/>
+    </RelativeLayout>
+
+</RelativeLayout>

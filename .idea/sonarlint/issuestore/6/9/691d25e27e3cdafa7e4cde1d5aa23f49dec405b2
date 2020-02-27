@@ -1,0 +1,11 @@
+
+V
+squid:S106G"9Replace this use of System.out or System.err by a logger.(äˆ«Ç8ºæžùì-
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(„«Ëäøÿÿÿÿ8ºæžùì-
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(Ó†¡ø8«ÆŽùì-
+ksquid:MaximumInheritanceDepth#"<This class has 6 parents which is greater than 5 authorized.(¼Ì‹8ûŽ´Øì-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÁÔúÕ8Ïøûì-
+V
+squid:S106F"9Replace this use of System.out or System.err by a logger.(¾™ýœ8¥Áùì-

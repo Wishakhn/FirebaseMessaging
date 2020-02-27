@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.InboxActivity">
+    <include layout="@layout/layout_toolbar_inbox"/>
+    <LinearLayout
+        android:id="@+id/btns"
+        android:layout_below="@+id/toolbaridbox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:background="#66E7BA"
+        >
+        <ImageView
+            android:id="@+id/prof"
+            android:src="@drawable/ic_timelapse_"
+            android:layout_width="0dp"
+            android:padding="6dp"
+            android:onClick="changeFragment"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/chats"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_chat_bubble"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:background="@color/selected"
+            android:onClick="changeFragment"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/calls"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_call_black"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:onClick="changeFragment"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+<FrameLayout
+    android:id="@+id/fragment"
+    android:layout_below="@+id/btns"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+</FrameLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/colorPrimary">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_settings_backup"
+            android:padding="7dp"
+            />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/toolbaridbox"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:background="#66E7BA"
+    android:paddingVertical="6dp"
+    android:weightSum="4"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logindp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:src="@drawable/userdp"/>
+    <TextView
+        android:id="@+id/loginanme"
+        android:layout_width="0dp"
+        android:layout_weight="2.8"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text="Hello Messaging"
+        android:textColor="@color/black"/>
+</LinearLayout>
